@@ -1,4 +1,5 @@
 package music ;
-public interface playable {
+
+public interface Playable {
   void play();
 }
