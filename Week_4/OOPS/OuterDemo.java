@@ -16,7 +16,7 @@ public class OuterDemo{
    
     Outer outer = new Outer();
     outer.display();
-    Outer.Inner inner = Outer.new Inner();
+    Outer.Inner inner = outer.new Inner();
     inner.display();
     
   }
